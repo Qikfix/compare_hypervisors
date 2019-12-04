@@ -1,5 +1,11 @@
 This script should be executed on Satellite/Foreman Server and will check and compare the hypervisor information coming from virt-who and the current information on DB. We are looking for different FQDN where the UUID is the same.
 
+Before you start, just download the script:
+```
+# wget https://raw.githubusercontent.com/waldirio/compare_hypervisors/master/compare_hypers.sh
+# chmod +x compare_hypers.sh
+```
+
 Below an example:
 ```
 # ./compare_hypers.sh 
