@@ -1,4 +1,4 @@
-This script should be executed on Satellite/Foreman Server and will check and compare the hypervisor information coming from virt-who and the current information on DB. We are looking for different FQDN where the UUID is the same.
+This script should be executed on Satellite/Foreman Server and will check and compare the hypervisor information coming from virt-who and the current information in the DB. We are looking for different FQDN where the UUID is the same.
 
 Before you start, just download the script:
 ```
@@ -37,3 +37,5 @@ VCENTER UUID ...: 30393137-3436-584d-5136-303730304747
 
 If no output above, everything is fine (UUID and FQDN matching).
 ```
+
+Hope you enjoy it.
